@@ -27,8 +27,8 @@ The MySQL settings
 
 The HTTP settings
 http_host: The domain name
-http_conf: The HTTP configuration
-http_port: The listening port
+http_conf: the name of the configuration file that will be created within Apache.
+http_port: The HTTP port, default is 80.
 
 ## Run
 
