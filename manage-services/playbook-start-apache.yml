@@ -1,0 +1,11 @@
+##################################################
+# DO Community Playbooks: LAMP on Ubuntu 18.04
+##################################################
+---
+- hosts: webServers
+  become: true
+  tasks:
+    - name: "start the apache service"
+      service:
+        name: apache2
+        state: started
